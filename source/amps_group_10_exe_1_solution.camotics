@@ -1,0 +1,32 @@
+{
+      "units": "metric",
+      "resolution-mode": "manual",
+      "resolution": 0.175,
+      "tools": {
+        "1": {
+          "units": "metric",
+          "shape": "cylindrical",
+          "length": 63,
+          "diameter": 8,
+          "description": "pre machining"
+        },
+        "2": {
+          "units": "metric",
+          "shape": "cylindrical",
+          "length": 32,
+          "diameter": 2,
+          "description": "machining for slot"
+        }
+      },
+      "workpiece": {
+        "automatic": false,
+        "margin": 5,
+        "bounds": {
+          "min": [0, 0, -8],
+          "max": [60, 125, 0]
+        }
+      },
+      "files": [
+        "exe.txt"
+      ]
+    }
